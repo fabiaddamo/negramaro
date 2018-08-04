@@ -1,0 +1,7 @@
+body {
+    background-color: #F7F4F1;
+}
+
+.topnav a.active {
+    color: orange;
+}

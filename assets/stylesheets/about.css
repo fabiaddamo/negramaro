@@ -1,0 +1,26 @@
+
+
+body {
+    background-color: #F7F4F1;
+}
+
+.topnav a.active {
+    color: orange;
+}
+
+.nav-list-item a
+{
+text-decoration: none;
+color: #000000;
+font-family: Open Sans;
+font-size: medium;
+font-weight: bold;
+letter-spacing: 1px;
+}
+
+
+.img-container {
+  float: left;
+  width: 25%;
+  padding: 5px;
+}

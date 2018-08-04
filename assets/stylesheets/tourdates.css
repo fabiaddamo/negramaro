@@ -1,0 +1,57 @@
+body {
+    background-color: #F7F4F1;
+}
+
+.topnav a.active {
+    color: orange;
+    padding: 40px;
+}
+
+
+.topnav {
+font-size:20px;
+font-family:"Open Sans" !important;
+font-weight:bold;
+padding: 40px;
+color: C2BEBA;
+}
+
+a {
+   text-decoration: none;
+}
+
+
+table, th , td {
+  border: 1 px solid red;
+}
+
+td {
+  text-align: center;
+}
+
+
+tbody {
+  background: red;
+}
+
+table {
+  width:100%;
+
+}
+
+
+table#t01 th,td {
+    background-color: solid red;
+    color: white;
+}
+
+
+table {
+    border-spacing: 2px;
+}
+
+
+th, td {
+    padding: 20px;
+    text-align: center;
+  }

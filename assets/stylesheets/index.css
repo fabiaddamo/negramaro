@@ -1,0 +1,14 @@
+body {
+    background-color: #F7F4F1;
+}
+
+.topnav a.active {
+    color: orange;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 50%;
+  margin-left: -100px /* negative half the width */
+}
