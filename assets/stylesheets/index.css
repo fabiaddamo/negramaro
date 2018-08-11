@@ -1,14 +1,46 @@
+
+
+
+
+
+.logo {
+ position: relative;
+ top: 450px;
+ height: 100px;
+ bottom: 450px;
+ position: center;
+ left: 500px;
+}
+
+html {
+
+  /*background: url(../images/pexels-photo-904807.jpeg) no-repeat center center fixed;*/
+  background: url(../images/tinified/homepage_negramaro.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: cover;
+}
+
+.active {
+    color: orange;
+}
+
 body {
     background-color: #F7F4F1;
 }
 
-.topnav a.active {
-    color: orange;
+body {
+  font-family: Open Sans, san-serif;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-.logo {
-  position: absolute;
-  top: 0px;
-  left: 50%;
-  margin-left: -100px /* negative half the width */
+.navbar-default {
+  background-color: teal;
+  background image: none;
+  background-repeat: no-repeat;
 }

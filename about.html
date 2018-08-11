@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,36 +10,57 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Negramaro</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/about.css" />
-</head>
-<body>
-          <a href="index.html"><img class="logo" src="./assets/images/tinified/negramaro_logo.jpg" alt="Negramaro logo" /></a>
-          <div class="topnav">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href="./assets/stylesheets/styles.css" rel="stylesheet" type"text/css"/>
+ <link href="./assets/stylesheets/about.css" rel="stylesheet" type"text/css"/>
+ <body>
+ </head>
+ <body>
+       <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container">
+           <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+           </div>
+           <div id="navbar" class="collapse navbar-collapse">
+             <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#discography">Discography</a></li>
+                 <li><a href="#media">Media</a></li>
+                     <li><a href="#merch">Merch</a></li>
+                     <li><a href="#tourdates">Tour Dates</a></li>
+             </ul>
+           </div><!--/.nav-collapse -->
+             <a href="index.html"><img class="logo" src="./assets/images/tinified/negramaro_logo.jpg" alt="Negramaro logo" /></a>
+         </div>
+       </nav>
 
-            <a href="#home">Home</a>
-              <a class="active" href="#about">About</a>
-            <a href="#discography">Discography</a>
-            <a href="#media">Media</a>
-              <a href="#merch">Merch</a>
-                <a href="#tourdates">Tour Dates</a>
-          </div>
-            <p>
-              Negramaro is an Italian pop band formed in 1999 and successful since 2005. Their name stems from Negroamaro, a wine produced in their native district, Salento in Apulia.
-
-  After years spent in the Italian alternative market, they finally became known more widely in 2005 thanks to the Festival di Sanremo.
-            </p>
-            <p>
+  <section>
+     <div class="container">
+       <div class="row">
+         <div class="col-xs-12">
+           <h1 class="section-title">Band</h1>
+         </div>
+         <div class="col-xs-12">
+          <img class="image-responsive history-image" src="./assets/images/tinified/About_band_image.jpg" />
+          <p class="history">
+              Negramaro is an Italian pop band formed in 1999 and successful since 2005. Their name stems from Negroamaro, a wine produced in their native district, Salento in Apulia. After years spent in the Italian alternative market, they finally became known more widely in 2005 thanks to the Festival di Sanremo.
               Negramaro formed in 1999 in Copertino, near Lecce. In the beginning, helped by live performances, they received good reviews. That improved when they met producer Caterina Caselli, who taught them how to record music.
+              In 2001 they won the Tim Tour and ended as finalists at the MTV Brand New Talent. Their first album, Negramaro, was released in 2003.
             </p>
-            <p>
-              In 2001 they won the Tim Tour and ended as finalists at the MTV Brand New Talent.
-
-Their first album, Negramaro, was released in 2003.
+</section>
 
 <div class="row">
-  <div class="column">
+  <div class="column-xs-12 col-md-4">
     <div class="card">
-      <img src="giuliano_sangiorgi.jpg" alt="Giuliano Sangiorgi" style="width:100%">
+        <img class="band-member-5" src="../assets/images/tinified/giuliano_sangiorgi.jpg" >
       <div class="container">
         <p class="title">Vocals </p>
       </div>
@@ -47,7 +70,7 @@ Their first album, Negramaro, was released in 2003.
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="Andrea_De_Rocco.jpg" alt="Andrea De Rocco" style="width:100%">
+      <img class="band-member-4" src="../assets/images/tinified/Andrea_De_Rocco.jpg" >
       <div class="container">
         <p class="title">Sampler </p>
       </div>
@@ -57,7 +80,7 @@ Their first album, Negramaro, was released in 2003.
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="Andrea_Mariano.jpg" alt="Andrea Mariano" style="width:100%">
+      <img class="band-member-3" src="../assets/images/tinified/andrea_mariano.jpg" >
       <div class="container">
         <p class="title">Piano</p>
       </div>
@@ -67,7 +90,7 @@ Their first album, Negramaro, was released in 2003.
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="emanuele_spedicato.jpg" alt="Emanuele Spedicato" style="width:100%">
+        <img class="band-member-2" src="../assets/images/tinified/emanuele_spedicato.jpg" >
       <div class="container">
         <p class="title">Guitar</p>
       </div>
@@ -77,7 +100,7 @@ Their first album, Negramaro, was released in 2003.
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="Danilo_Tasco.jpg" alt="Danilo Tasco" style="width:100%">
+        <img class="band-member-1" src="../assets/images/tinified/Danilo_Tasco.jpg" >
       <div class="container">
         <p class="title">Drums </p>
       </div>
@@ -87,13 +110,31 @@ Their first album, Negramaro, was released in 2003.
 <div class="row">
   <div class="column">
     <div class="card">
-      <img src="Ermanno_Carlà".jpg" alt="ErmannoCarlà" style="width:100%">
+        <img class="band-member-6" src="../assets/images/tinified/Ermanno_Carlà.jpg" >
       <div class="container">
         <p class="title">Bass</p>
       </div>
     </div>
   </div>
-  </div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous">
+</script>
+
+<script src="./assets/javascripts/lightbox.min.js"/></script>
+
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true
+    })
+</script>
+
+
+
+<div class="column1of2"
             <h3>Associated Acts</h3>
             <ul>
               <li>
@@ -104,7 +145,9 @@ Their first album, Negramaro, was released in 2003.
               </li>
 
             </ul>
+          </div>
 
+<div class="column2of2"
             <h3>Awards</h3>
             <ul>
               <li>
@@ -112,11 +155,13 @@ Their first album, Negramaro, was released in 2003.
               </li>
               <li>
                 Premio Rivelazione Italiana <i>(Festivalbar)</i>
-                  <li>
+              </li>
+              <li>
                     Premio Best Performer <i>(Festivalbar)</i>
                   </li>
                   <li>
                   Premio Lunezia
                 </li>
+                    </div>
 </body>
 </html>

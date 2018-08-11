@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!Doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -8,15 +8,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Negramaro</title>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="./assets/stylesheets/index..css" />
-</head>
-<body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link href="./assets/stylesheets/styles.css" rel="stylesheet" type"text/css"/>
+ <link href="./assets/stylesheets/media.css" rel="stylesheet" type"text/css"/>
+ <body>
+ </head>
+ <body>
+       <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container">
+           <div class="navbar-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+               <span class="sr-only">Toggle navigation</span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+             </button>
+           </div>
+           <div id="navbar" class="collapse navbar-collapse">
+             <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#discography">Discography</a></li>
+                 <li><a href="#media">Media</a></li>
+                     <li><a href="#merch">Merch</a></li>
+                     <li><a href="#tourdates">Tour Dates</a></li>
+             </ul>
+           </div><!--/.nav-collapse -->
+             <a href="index.html"><img class="logo" src="./assets/images/tinified/negramaro_logo.jpg" alt="Negramaro logo" /></a>
+         </div>
+       </nav>
 
-  <div class="topnav">
-  <a href="#home">Home</a>
-              <a class="#about">About</a>
-            <a href="#discography">Discography</a>
-            <a href="active">Media</a>
-              <a href="#merch">Merch</a>
-                <a href="#tourdates">Tour Dates</a>
-          </div>
+       <button class="button 1">Videos</button>
+       <button class="button 2">Photos</button>
+
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/-jvLm8kZBTM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/EikicSEKi4M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/JM30Jvcw-K4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+       <iframe width="560" height="315" src="https://www.youtube.com/embed/3w1cBtDSJ3U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+       <div class="row">
+     <div class="col-xs-12 col-sm-6  col-lg-3">
+       <a href="./assets/images/tinified/media1.jpg" data-lightbox="image-1" data-lightbox="media" data-title="media photos">
+         <img class="img-responsive lightbox-image" src="./assets/images/tinified/media2.jpg"/>
+       </a>
+     </div>
+
+     <div class="row">
+   <div class="col-xs-12 col-sm-6  col-lg-3">
+     <a href="./assets/images/tinified/media3.jpg" data-lightbox="image-1" data-lightbox="media" data-title="media photos">
+       <img class="img-responsive lightbox-image" src="./assets/images/tinified/media4.jpg"/>
+     </a>
+   </div>
+
+   <div class="row">
+ <div class="col-xs-12 col-sm-6  col-lg-3">
+   <a href="./assets/images/tinified/media5.jpg" data-lightbox="image-1" data-lightbox="media" data-title="media photos">
+     <img class="img-responsive lightbox-image" src="./assets/images/tinified/media6.jpg"/>
+   </a>
+ </div>
+   </div>
+
+
+                                              <script src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous">
+                                              </script>
+
+                                              <script src="./assets/javascripts/lightbox.min.js"/></script>
+
+                                              <script>
+                                                  lightbox.option({
+                                                    'resizeDuration': 200,
+                                                    'wrapAround': true
+                                                  })
+                                              </script>
+
+</body>
+</html>
