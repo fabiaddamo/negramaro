@@ -1,0 +1,55 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  background: #f7f4f1;
+}
+
+ul.navbar-nav > li > a {
+  font-size: 36px;
+  color: #9f978d;
+}
+
+.navbar-nav > .active > a {
+  color: #fab970 !important;
+}
+
+/*
+
+INDEX PAGE STYLES
+
+*/
+
+body.index {
+  background-image: url('../images/tinified/homepage_negramaro.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar-index-page {
+  height: 180px;
+}
+
+.index-logo {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+}
+
+footer.index-page {
+  width: 100%;
+  height: 100px;
+  background: green;
+  position: absolute;
+  bottom: 0;
+}
+
+footer.index-page .social-media li a{
+  color: red;
+}
