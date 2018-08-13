@@ -7,11 +7,7 @@ html,body {
 }
 
 ul.navbar-nav > li > a {
-<<<<<<< HEAD
-  font-size: 24px;
-=======
   font-size: 36px;
->>>>>>> 779ceae51cdec0c62fcb5d8ab7d583bd7fbf67ec
   color: #9f978d;
 }
 
@@ -20,13 +16,7 @@ ul.navbar-nav > li > a {
 }
 
 /*
-<<<<<<< HEAD
 INDEX PAGE STYLES
-=======
-
-INDEX PAGE STYLES
-
->>>>>>> 779ceae51cdec0c62fcb5d8ab7d583bd7fbf67ec
 */
 
 body.index {
@@ -38,11 +28,7 @@ body.index {
 }
 
 .navbar-index-page {
-<<<<<<< HEAD
   height: 60px;
-=======
-  height: 180px;
->>>>>>> 779ceae51cdec0c62fcb5d8ab7d583bd7fbf67ec
 }
 
 .index-logo {
@@ -57,25 +43,28 @@ body.index {
 footer.index-page {
   width: 100%;
   height: 100px;
-<<<<<<< HEAD
   background: ##9f978d;;
-=======
-  background: green;
->>>>>>> 779ceae51cdec0c62fcb5d8ab7d583bd7fbf67ec
   position: absolute;
   bottom: 0;
+  text-align: center;
 }
 
 footer.index-page .social-media li a{
   color: red;
 }
-<<<<<<< HEAD
+.social-media{
+  list-style: none;
+}
+.socialmedia li {
+  display: inline;
+}
+
 
 /*
 ABOUT PAGE STYLES
 */
 
-.img-container {
+.about-img-container {
   float: left;
   width: 25%;
   padding: 5px;
@@ -86,76 +75,57 @@ ABOUT PAGE STYLES
   height: 60px;
 }
 
-.about-logo {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  bottom: 0;
-  right: 0;
-  margin: auto;
+.navbar-nav > .active > a {
+  color: #fab970 !important;
 }
 
-p.history {
-  text-align: left;
-  width: 1000px;
-  top: 200px;
-  left: 400px:
-  margin-top: 50px;
-  padding: 5px;
+.band-image {
+  display: inline-block;
+}
+.band-member {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+
 }
 
-.column1of2, .column2of2 {
-  width: 100px;
-  float: right;
-  margin: 10px;
+.history-image {
+  float:left;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-image.image-responsive history-image{
-  width: 275px;
+.logo-top-left{
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+width: 150px;
+top: 0;
+margin: 0px;
 }
 
-.band-member-1{
-  width: 25%;
+.small-logo-navbar{
+position: relative;
+margin-top: 5%;
 }
 
-.band-member-2{
-  width: 25%;
-}
-
-.band-member-3{
-  width: 25%;
-}
-
-.band-member-4{
-  width: 25%;
-}
-
-.band-member-5{
-  width: 25%;
-}
-
-.band-member-6{
-  width: 25%;
-}
-
-li {
-  display: inline;
-  margin-right: 50px;
+.content {
+  margin-top: 15%;
 }
 
 /*
 DISCOGRAPHY PAGE STYLES
 */
-body {
-    background-color: #F7F4F1;
+
+ul.navbar-nav > li > a {
+  font-size: 36px;
+  color: #9f978d;
 }
 
-body {
-  font-family: Open Sans, san-serif;
-  font-size: 24px;
-  font-weight: bold;
+.navbar-nav > .active > a {
+  color: #fab970 !important;
 }
-
 
 
 table#t01 th,td {
@@ -169,7 +139,7 @@ table#t01 th,td {
 
 
 
-.logo {
+.media-logo {
  position: absolute;
  top: 1px;
  left: 2px;
@@ -177,22 +147,25 @@ table#t01 th,td {
 }
 
 
+
 /*
 MEDIA PAGE STYLES
 */
 
-body {
-    background-color: #F7F4F1;
+
+
+ul.navbar-nav > li > a {
+  font-size: 36px;
+  color: #9f978d;
 }
 
-body {
-  font-family: Open Sans, san-serif;
-  font-size: 24px;
-  font-weight: bold;
+.navbar-nav > .active > a {
+  color: #fab970 !important;
 }
 
 
-.logo {
+
+.media-logo {
  position: absolute;
  top: 1px;
  left: 2px;
@@ -233,15 +206,18 @@ MERCH PAGE STYLES
 
 
 
-body {
-  background-color: #F7F4F1;
-  font-family: Open Sans, san-serif;
-  font-size: 24px;
-  font-weight: bold;
+
+ul.navbar-nav > li > a {
+  font-size: 36px;
+  color: #9f978d;
+}
+
+.navbar-nav > .active > a {
+  color: #fab970 !important;
 }
 
 
-.logo {
+.merch-logo {
  position: absolute;
  top: 1px;
  left: 2px;
@@ -249,7 +225,7 @@ body {
 }
 
 
-.button {
+.merch-button {
     background-color: red;
     border: none;
     color: white;
@@ -265,28 +241,16 @@ body {
 /*
 TOURDATES PAGE STYLES
 */
-body {
-    background-color: #F7F4F1;
+
+
+ul.navbar-nav > li > a {
+  font-size: 36px;
+  color: #9f978d;
 }
 
-.topnav a.active {
-    color: orange;
-    padding: 40px;
+.navbar-nav > .active > a {
+  color: #fab970 !important;
 }
-
-
-.topnav {
-font-size:20px;
-font-family:"Open Sans" !important;
-font-weight:bold;
-padding: 40px;
-color: C2BEBA;
-}
-
-a {
-   text-decoration: none;
-}
-
 
 table, th , td {
   border: 1 px solid red;
@@ -322,5 +286,9 @@ th, td {
     padding: 20px;
     text-align: center;
   }
-=======
->>>>>>> 779ceae51cdec0c62fcb5d8ab7d583bd7fbf67ec
+
+  .song-table, tbody, th, td{
+  border: 1px solid grey;
+  color: grey;
+  background-color: transparent;
+  }
