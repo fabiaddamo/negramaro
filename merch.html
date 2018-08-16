@@ -14,7 +14,7 @@
    <body>
       </head>
       <body>
-         <nav class="navbar navbar-fixed-top">
+         <nav class="navbar">
             <div class="container">
                <div class="navbar-header">
                   <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -26,50 +26,80 @@
                </div>
                <div id="navbar" class="collapse navbar-collapse small-logo-navbar">
                   <ul class="nav navbar-nav">
-                     <li><a href="#index">Home</a></li>
-                     <li><a href="#about">About</a></li>
-                     <li><a href="#discography">Discography</a></li>
-                     <li><a href="#media">Media</a></li>
+                     <li><a href="index.html.html">Home</a></li>
+                     <li><a href="about.html">About</a></li>
+                     <li><a href="discography.html">Discography</a></li>
+                     <li><a href="media.html">Media</a></li>
                      <li class="active"><a href="active">Merch</a></li>
-                     <li><a href="#tourdates">Tour Dates</a></li>
+                     <li><a href="tourdates.html">Tour Dates</a></li>
                   </ul>
                </div>
                <!--/.nav-collapse -->
                <img class="index-logo logo-top-left" src="./assets/images/tinified/negramaro_logo.jpg" alt="Negramaro logo" />
             </div>
          </nav>
-         <img class="index-logo logo-top-left" src="./assets/images/tinified/negramaro_logo.jpg" alt="Negramaro logo" />
-         </div>
-         </nav>
          <div class="container merch-buttons">
          <div class="container media-buttons">
-            <button class="button 1">All</button>
-            <button class="button 2">Accessories</button>
-            <button class="button 3">Hats</button>
-            <button class="button 4">Tshirts</button>
+            <button onclick="hideShow(this)" class="button 1">All</button>
+            <button onclick="hideShow(this)" class="button 2">Accessories</button>
+            <button onclick="hideShow(this)" class="button 3">Hats</button>
+            <button onclick="hideShow(this)" class="button 4">Tshirts</button>
          </div>
+
          <div class="container">
-            <div class="row">
-               <div class="column-xs-12 col-md-4">
-                  <img class="merch-1 src="../assets/images/tinified/accessories1.png" >
+            <div class="row accessories">
+               <div class="col-xs-6">
+                  <img class="merch-1" src="../assets/images/tinified/accessories1.png" >
                </div>
-               <div class="column-xs-12 col-md-4">
-                  <img class="merch-2 src="../assets/images/tinified/accessories2.png" >
+               <div class="col-xs-6">
+                  <img class="merch-2" src="../assets/images/tinified/accessories2.png" >
                </div>
             </div>
-            <div class="row">
-               <div class="column-xs-12 col-md-4">
-                  <img class="merch-3 src="../assets/images/tinified/tshirts1.png" >
+            <div class="row tshirts">
+               <div class="col-xs-6">
+                  <img class="merch-3" src="../assets/images/tinified/tshirt1.png" >
                </div>
-               <div class="column-xs-12 col-md-4">
-                  <img class="merch-4 src="../assets/images/tinified/tshirts2.png" >
-                  <div class="column-xs-12 col-md-4">
-                     <img class="merch-5 src="../assets/images/tinified/hat1.png" >
+               <div class="col-xs-6">
+                  <img class="merch-4" src="../assets/images/tinified/tshirt2.png" >
+                </div>
+             </div>
+             <div class="row hats">
+                <div class="col-xs-12">
+  <img class="merch-5" src="../assets/images/tinified/hat1.png" >
                   </div>
-               </div>
+                   </div>
             </div>
-         </div>
+
+
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script type="text/javascript">
+         function hideShow(button){
+           if(button.innerHTML=="All"){
+             $(".accessories").show()
+                  $(".tshirts").show()
+                      $(".hats").show()
+           }
+else if (button.innerHTML=="Accessories") {
+  $(".accessories").show()
+       $(".tshirts").hide()
+           $(".hats").hide()
+}
+else if (button.innerHTML=="Hats") {
+  $(".accessories").hide()
+       $(".tshirts").hide()
+           $(".hats").show()
+}
+
+else if (button.innerHTML=="Tshirts") {
+  $(".accessories").hide()
+       $(".tshirts").show()
+           $(".hats").hide()
+}
+
+         }
+         </script>
          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
    </body>
 </html>
