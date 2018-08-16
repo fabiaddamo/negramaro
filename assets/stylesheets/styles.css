@@ -81,11 +81,13 @@ ABOUT PAGE STYLES
 
 .band-image {
   display: inline-block;
+  padding: 5px;
+  padding-top: 15px;
 }
 .band-member {
   display: inline-block;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
 
 }
 
@@ -297,8 +299,10 @@ th, td {
   border: 1px solid grey;
   color: grey;
   background-color: transparent;
+  width: 100px;
   }
 
  .song-table td {
    height: 50px;
+   weight: 50px;
  }
